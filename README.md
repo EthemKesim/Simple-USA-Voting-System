@@ -1,6 +1,5 @@
 # Simple USA Voting System
 
-# Simple Voting System
 
 ## Project Overview
 
