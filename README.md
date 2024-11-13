@@ -1,39 +1,114 @@
-# Simple USA Voting System
+USA Voting System 2024
+
+A simple, console-based voting application implemented in three programming languages: C#, Python, and JavaScript. This application allows users to vote for a candidate with name/surname verification and includes a tie-breaking round if necessary.
 
 
-## Project Overview
+Description
+The USA Voting System 2024 is a console-based application that runs in C#, Python, and JavaScript, showcasing identical functionality across these languages. Users provide their name and surname to vote, and the application tracks votes and manages tie-breakers through additional rounds if needed.
 
-The Simple Voting System is an interactive application that allows users to vote for their preferred candidates in a simulated election environment. This project is implemented in three programming languages: **Python**, **C#**, and **JavaScript**. Each implementation demonstrates the unique features and syntax of the respective language while maintaining the same core functionality.
+Purpose
+This project demonstrates how to build a basic voting system using three programming languages while providing a practical example of cross-language implementations.
 
-## Purpose
 
-The purpose of this project is to provide a user-friendly platform for conducting and managing an election-style voting process. It allows users to register candidates, cast votes, and determine winners, while also handling ties through a second round of voting if necessary.
+Features
+- Name Verification: Users enter their name and surname to prevent duplicate voting.
+- Candidate List: A fixed list of candidates displayed at the start of the program.
+- Vote Counting: Votes are tallied, and results are displayed at the end of each round.
+- Tie-Breaking: In case of a tie, a second round is automatically triggered for only the tied candidates.
+- Vote Statistics: Displayed at the end of the session with graphical bars showing vote percentages.
 
-## Project Goals
 
-- To create an easy-to-use voting system that can handle multiple candidates.
-- To implement a mechanism for resolving ties through a second round of voting.
-- To demonstrate the capabilities of Python, C#, and JavaScript in building command-line and web-based applications.
 
-## Features
 
-- **Candidate Registration**: Candidates are predefined and displayed with numbers for easy selection.
-- **Voting Mechanism**: Users can vote by entering the candidate number. The application ensures valid inputs.
-- **Result Display**: After voting, the system displays the results, including the number of votes each candidate received.
-- **Tie Handling**: In the event of a tie, the system conducts a second round of voting among the tied candidates until a clear winner is determined.
-- **User-Friendly Interface**: Clear prompts and messages guide users through the voting process.
 
-## Technologies Used
+Technologies Used
+Each version has specific language requirements:
 
-- **Python**: Used for the command-line interface implementation.
-- **C#**: Implemented as a console application to showcase .NET capabilities.
-- **JavaScript**: Developed as a web application using Node.js for server-side logic.
+- Python Version:
+  - Python 3.x
+  - Console interaction through `input()` and `print()` functions
 
-## Instructions for Running the Project
+- C# Version:
+  - .NET Core SDK
+  - Console Application with `Console.WriteLine` for user interactions
 
-### Python
+- JavaScript Version:
+  - Node.js
+  - Uses the `readline` module for console input and output
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/simple-voting-system.git
-   cd simple-voting-system/python
+---
+
+Installation & Setup
+
+Prerequisites
+Make sure you have the following installed:
+- Python 3.x
+- .NET Core SDK
+- Node.js
+
+ Running Each Version
+1. Python Version:
+   cd python_version
+   python voting_system.py
+
+2.	C# Version:
+cd csharp_version 
+dotnet run
+
+3.	JavaScript Version:
+cd javascript_version 
+node voting_system.js
+
+Project Structure
+The project is organized by language, with each version containing its own main program file.
+
+usa-voting-system-2024/
+│
+├── python_version/
+│   └── voting_system.py
+│
+├── csharp_version/
+│   ├── Program.cs
+│   └── VotingSystem.csproj
+│
+├── javascript_version/
+│   └── voting_system.js
+│
+└── README.md
+
+
+
+
+
+
+
+Console Interface Examples
+Main Menu
+=== USA Voting System 2024 ===
+1. Register Candidates
+2. Start Voting
+3. View Results
+4. Exit
+Choose an option (1-4):
+
+Voting Process
+1.	Users enter their name and surname to verify their identity.
+2.	Candidates are displayed with corresponding numbers.
+3.	Users vote by selecting the candidate's number.
+
+Tie-Breaking Round
+If there's a tie, a new round is started with only the tied candidates. The process continues until a winner is determined.
+________________________________________
+
+Future Enhancements
+1.	Additional Voting Features: Ability to add write-in candidates.
+2.	Data Persistence: Store votes in a file or database.
+3.	Web-Based Version: A browser-based UI for a more interactive experience.
+________________________________________
+Version Information
+•	Current Version: 1.0.0
+•	Last Updated: [Date]
+•	Status: In Development
+________________________________________
+
+
