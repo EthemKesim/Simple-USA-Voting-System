@@ -50,18 +50,18 @@ Project Structure
 The project is organized by language, with each version containing its own main program file.
 
 usa-voting-system-2024/
-│
-├── python_version/
-│   └── voting_system.py
-│
-├── csharp_version/
-│   ├── Program.cs
-│   └── VotingSystem.csproj
-│
-├── javascript_version/
-│   └── voting_system.js
-│
-└── README.md
+
+1.python_version/
+  1.1voting_system.py
+  
+ 2.csharp_version/
+  2.1Program.cs/
+   2.2VotingSystem.csproj
+
+ 3.javascript_version/
+   3.1voting_system.js
+
+README.md
 
 ________________________________________
 Enhancements
