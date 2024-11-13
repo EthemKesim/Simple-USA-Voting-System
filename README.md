@@ -67,7 +67,7 @@ usa-voting-system-2024/
     1.1voting_system.py
 
  2.csharp_version/
-   2.1Program.cs
+   2.1Program.cs/
     2.2VotingSystem.csproj
 
 3.javascript_version/
