@@ -27,7 +27,7 @@ To run each version:
 
 Python: Navigate to folder, run python voting_app.py
 
-C#: Navigate to folder, run dotnet run
+C#: Navigate to folder, run dotnet run voting_app.csproj
 
 Node.js: Navigate to folder, run node voting_app.js
 
@@ -48,15 +48,15 @@ The project is organized by language, with each version containing its own main 
 
 usa-voting-system-2024/
 
-1.python_version/
-  1.1voting_system.py
+1. python_version/
+  1.1 voting_app.py
   
- 2.csharp_version/
-  2.1Program.cs/
-   2.2VotingSystem.csproj
+ 2. csharp_version/
+  2.1 Program.cs/
+   2.2 voting_app.csproj
 
- 3.javascript_version/
-   3.1voting_system.js
+ 3. javascript_version/
+   3.1 voting_app.js
 
 README.md
 
