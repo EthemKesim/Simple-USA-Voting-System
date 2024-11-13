@@ -1,13 +1,10 @@
 USA Voting System 2024
 
-A simple, console-based voting application implemented in three programming languages: C#, Python, and JavaScript. This application allows users to vote for a candidate with name/surname verification and includes a tie-breaking round if necessary.
-
-
-Description
-The USA Voting System 2024 is a console-based application that runs in C#, Python, and JavaScript, showcasing identical functionality across these languages. Users provide their name and surname to vote, and the application tracks votes and manages tie-breakers through additional rounds if needed.
+Overview
+This is a basic voting system we built to practice core programming skills in Python, C#, and JavaScript. It allows users to cast ballots for candidates in a mock election, showing how the same functionality can be implemented across languages.
 
 Purpose
-This project demonstrates how to build a basic voting system using three programming languages while providing a practical example of cross-language implementations.
+The goal was to create an easy-to-use application for conducting elections on a small scale. We wanted to demonstrate constructing a simple voting mechanism with candidate registration and tie-breaking capabilities.
 
 
 Features
